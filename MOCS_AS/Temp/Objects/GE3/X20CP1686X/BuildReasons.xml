@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\ge3\x20cp1686x\iodiver\iodiver.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\logical\iodefinitions\iodiver\iodiver.st" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\ge3\x20cp1686x\iodiver\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\ge3\x20cp1686x\iodiver\iodiver.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\ge3\x20cp1686x\iodiver\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\ge3\x20cp1686x\iodiver\iodiver.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\ge3\x20cp1686x\iodiver\iodiver.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\ge3\x20cp1686x\iodiver\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\ge3\x20cp1686x\iodiver.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\ge3\x20cp1686x\iodiver\iodiver.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\binaries\ge3\x20cp1686x\transfer.lst">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\ge3\x20cp1686x\iodiver.br" differs.
+</BuildReason>
+  </Rule>
+</BuildReasons>

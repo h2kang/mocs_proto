@@ -1,0 +1,39 @@
+Tue Nov 18 08:13:47 2025
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Tue Nov 18 08:13:47 2025
+No ARsim registration found!
+
+Tue Nov 18 08:13:47 2025
+InstanceName: 000000c4217fe122
+
+Tue Nov 18 08:13:47 2025
+WorkingDirectory: D:\Git\mocs_proto\MOCS_AS\Temp\Simulation\GE3\X20CP1686X\
+
+Tue Nov 18 08:13:47 2025
+COMMAND_COLDSTART
+
+Tue Nov 18 08:13:49 2025
+Version: K4.93
+
+Tue Nov 18 08:15:27 2025
+COMMAND_TERMINATE
+
+Tue Nov 18 08:15:27 2025
+COMMAND_COLDSTART
+
+Tue Nov 18 08:15:29 2025
+Version: K4.93
+
+Tue Nov 18 08:15:29 2025
+COMMAND_TERMINATE
+
+Tue Nov 18 08:15:29 2025
+COMMAND_COLDSTART
+
+Tue Nov 18 08:15:32 2025
+Version: K4.93
+
+Tue Nov 18 08:18:17 2025
+COMMAND_TERMINATE
+

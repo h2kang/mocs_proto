@@ -1,0 +1,21 @@
+Thu May  8 08:07:44 2025
+COPYRIGHT (C) B&R Industrial Automation GmbH
+
+Thu May  8 08:07:44 2025
+No ARsim registration found!
+
+Thu May  8 08:07:44 2025
+InstanceName: 000000ca69b32457
+
+Thu May  8 08:07:44 2025
+WorkingDirectory: D:\z01_Work\z00_MOCS\MultiMOCS\z00_SW\AS_MultiMOCS\MultiMOCS\Temp\Simulation\GE3\X20CP1686X\
+
+Thu May  8 08:07:44 2025
+COMMAND_COLDSTART
+
+Thu May  8 08:07:46 2025
+Version: K4.93
+
+Thu May  8 10:30:39 2025
+COMMAND_TERMINATE
+

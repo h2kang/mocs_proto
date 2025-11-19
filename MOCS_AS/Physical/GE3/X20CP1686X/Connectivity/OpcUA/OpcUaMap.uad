@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?AutomationStudio FileVersion="4.9"?>
+<OpcUaSource FileVersion="9" ArVersion="K4.93">
+  <Aliases>
+    <ACLAliases />
+    <EURangeViolationAliases />
+    <EURangesAliases />
+    <EngineeringUnitAliases />
+  </Aliases>
+  <DefaultView>
+    <Module Name="&lt;Default&gt;">
+      <GlobalVariables Name="Global Variables">
+        <Variable Name="OpcUA_cmd" RecursiveEnable="2" />
+        <Variable Name="OpcUA_modifier" RecursiveEnable="2" />
+        <Variable Name="OpcUA_mon" RecursiveEnable="2" />
+        <Variable Name="OpcUA_set_1" RecursiveEnable="2" />
+        <Variable Name="X20IOMat" RecursiveEnable="2">
+          <Variable Name="CommModule" RecursiveEnable="2" />
+          <Variable Name="IndivModule" RecursiveEnable="2" />
+        </Variable>
+      </GlobalVariables>
+    </Module>
+  </DefaultView>
+</OpcUaSource>
