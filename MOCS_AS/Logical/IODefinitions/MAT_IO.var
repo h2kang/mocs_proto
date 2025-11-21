@@ -1,4 +1,0 @@
-VAR
-	X20IOSim : X20IOMat_typ;
-	X20IOMat : X20IOMat_typ;
-END_VAR
