@@ -1,0 +1,140 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+B%R Automation Studio Target For Simulink
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+********** B&R Build Information **********
+
+ ASTarget Version:                 *7.1.1 (19-Sep-2025)*
+ ASTarget Install Path:            *C:\Program Files (x86)\BrAutomation\B&R Automation Studio Target for Simulink 7.1.1*
+ MATLAB Version:                   *2024b*
+
+********** Model Settings **********
+
+ Modelname:                        *MOCS_AS_Gen*
+ Number of Models:                 *1*
+ Path:                             *D:\Git\mocs_proto*
+ Coder:                            *ERT*Fixed-step*
+ System Target File:               *bur_ert*bur_ert.tlc*
+ Language:                         *C*C*
+ Simulation:                       *0*
+ Start Time:                       **0.0*
+ Stop Time:                        **inf*
+ Solver:                           *FixedStepDiscrete*FixedStepDiscrete*
+ Step size:                        *0.1*0.1*
+ maxIDLength:                      **31*
+
+ Floating Point support:           *1*off*
+ Continuous Time support:          *1*on*
+ Non Finite Numbers support:       *0*off*
+ Non Inlined S-Functions support:  *0*off*
+ Complex Numbers support:          *1*on*
+ Variable Size Signals support:    *0*off*
+ Absolute Time support:            *1*on*
+
+********** B&R Basic Settings **********
+
+ Taskgeneration:                   *1*
+ Fub-generation:                   *0*
+ Guidline Fub-generation:          *0*
+ Zip:                              *0*
+
+ AS Project Path:                  *D:\Git\mocs_proto\MOCS_AS*
+ AS project Name:                  **
+ Task Name:                        *CtrlLogic*
+ Fub Name:                         **
+ Zip Folder Name:                  **
+
+ Add to HW:                        *1*
+ Configuration Name:               *TestConfig*
+ PLC Name:                         *X20CP1686X*
+ Task Class:                       *52*
+ Change Task Class:                *0*
+ Task Cycle Time:                  *0.01*
+ Task Class Tolerance:             *0.01*
+ System Tick:                      *0.001*
+
+********** B&R Advanced Settings **********
+
+ Heapsize:                         *6553500*
+ Expert Mode:                      *1*
+ Logging:                          *1*
+ Create Global Var-Typ Files:      *0*
+ Simscape support:                 *0*
+ Automatic Transfer:               *0*
+ Additional Compiler Switches:     **
+ Version:                          **
+
+ External Mode:                    *0*off*
+ Buffer Size:                      *1000000*1.000000e+06*
+ IP-Adress:                        *127.0.0.1*'127.0.0.1'*
+ Port:                             *17725*
+ Verbose Mode:                     *0*
+
+ Description Enable:               *0*
+ Description:                      **
+
+ Pre Processing:                   *0*
+ PreP File Name:                   **
+
+ Post Processing:                  *0*
+ PP File Name:                     **
+
+ Add to AS Package:                *0*
+ Package Name:                     **
+ Package Lib Name:                 **
+
+ Encryption:                       *0*
+ Password:                         ******************
+ Encryption Path:                  *D:\Git\mocs_proto\MOCS_AS\Logical\CtrlLogic\*
+
+********** B&R Additional Files **********
+
+ Not implemented
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Build Logfile
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+21-Nov-2025 16:29:52	ShowProgressBar 	 	step 	-
+21-Nov-2025 16:29:52	MinorProgress 	Prearrangement 	Starting Model Settings Checkup Procedure 	-
+21-Nov-2025 16:29:53	MinorProgress 	Post Processing 	Running custom post processing 	-
+21-Nov-2025 16:29:53	MinorProgress 	Prearrangement 	Check Model for multiple function blocks 	-
+21-Nov-2025 16:29:53	MinorProgress 	Prearrangement 	Clean Files 	-
+21-Nov-2025 16:29:53	MinorProgress 	Prearrangement 	Clean Folders 	-
+21-Nov-2025 16:29:53	MinorProgress 	Prearrangement 	Check Registry 	-
+21-Nov-2025 16:29:53	MinorProgress 	Prearrangement 	Starting Model Settings Checkup Procedure 	-
+21-Nov-2025 16:29:53	MinorProgress 	Target Language Compiler 	Create files for Variables 	-
+21-Nov-2025 16:29:53	MinorProgress 	Target Language Compiler 	Create files for Types 	-
+21-Nov-2025 16:29:55	MinorProgress 	Target Language Compiler 	Clean files for Variables 	-
+21-Nov-2025 16:29:55	MinorProgress 	Target Language Compiler 	Close files for Variables 	-
+21-Nov-2025 16:29:55	MinorProgress 	Target Language Compiler 	Close files for Types 	-
+21-Nov-2025 16:29:55	MinorProgress 	Target Language Compiler 	Close files for Types 	-
+21-Nov-2025 16:29:56	MinorProgress 	Copy Files 	Collecting source files 	-
+21-Nov-2025 16:29:56	MinorProgress 	Copy Files 	Copy additional source Files 	-
+21-Nov-2025 16:29:57	MinorProgress 	Create Files 	Create ReadMe File 	-
+21-Nov-2025 16:29:57	MinorProgress 	Processing Files 	Processing task source files 	-
+21-Nov-2025 16:29:57	MinorProgress 	Processing Files 	Processing task source files 	-
+21-Nov-2025 16:29:57	MinorProgress 	Processing Files 	Processing task source files 	-
+21-Nov-2025 16:29:57	MinorProgress 	Processing Files 	Processing task source files 	-
+21-Nov-2025 16:29:57	MinorProgress 	Processing Files 	Processing source files 	-
+21-Nov-2025 16:29:57	MinorProgress 	Processing Files 	Processing source files 	-
+21-Nov-2025 16:29:57	MinorProgress 	Model Referencing 	Registering referenced models 	-
+21-Nov-2025 16:29:57	MinorProgress 	Model Referencing 	Registering referenced models 	-
+21-Nov-2025 16:29:57	MinorProgress 	Model Referencing 	Registering referenced models 	-
+21-Nov-2025 16:29:57	MinorProgress 	Copying Files 	Copying source files 	-
+21-Nov-2025 16:29:57	MinorProgress 	Processing Files 	Cleaning files 	-
+21-Nov-2025 16:29:57	MinorProgress 	Create Files 	Create task package 	-
+21-Nov-2025 16:29:57	MinorProgress 	Processing Files 	Cleaning files 	-
+21-Nov-2025 16:29:57	MinorProgress 	Processing Files 	Cleaning files 	-
+21-Nov-2025 16:29:57	MinorProgress 	Copying Files 	Copying source files 	-
+21-Nov-2025 16:29:57	MinorProgress 	Copying Files 	Copying custom source files 	-
+21-Nov-2025 16:29:57	MinorProgress 	Registering new Files 	Registering Task in Automation Studio 	-
+21-Nov-2025 16:29:57	MinorProgress 	Automation Studio Checkup 	Checking for Dependencies 	-
+21-Nov-2025 16:29:58	MinorProgress 	Simulink sources 	Copying Simulink source files 	-
+21-Nov-2025 16:29:58	MinorProgress 	Simulink sources 	Adding Simulink source files 	-
+21-Nov-2025 16:29:58	MinorProgress 	Simulink sources 	Adding Simulink source files 	-
+21-Nov-2025 16:29:58	MinorProgress 	Model Referencing 	Registering referenced models in task 	-
+21-Nov-2025 16:29:58	MinorProgress 	Task registration 	Adding Task to current hardware configuration 	-
+21-Nov-2025 16:29:58	MinorProgress 	Post Processing 	Running custom post processing 	-
+21-Nov-2025 16:29:58	FinishProgressBar 	 	step 	-
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+EOF
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

@@ -1,0 +1,4 @@
+VAR
+        Test_out : CMDO_typ; (**)
+        Test_In : CMDO_typ; (**)
+END_VAR

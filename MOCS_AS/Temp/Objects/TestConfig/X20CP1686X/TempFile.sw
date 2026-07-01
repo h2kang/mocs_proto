@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><?AutomationStudio FileVersion="4.9"?><SwConfiguration xmlns="http://br-automation.co.at/AS/SwConfiguration" CpuAddress="SL1">
+   <TaskClass Name="Cyclic#1"/>
+   <TaskClass Name="Cyclic#2"/>
+   <TaskClass Name="Cyclic#3"/>
+   <TaskClass Name="Cyclic#4">
+      <Task Name="IODiver" Source="IODefinitions.IODiver.prg" Memory="UserROM" Language="IEC" Debugging="true"/>
+      <Task Name="MAT_IO_tes" Source="MATLAB_Interface.MAT_IO_test.prg" Memory="UserROM" Language="IEC" Debugging="true"/>
+      <Task Name="CtrlLogic" Source="CtrlLogic.prg" Memory="UserROM" Language="ANSIC" AdditionalIncludeDirectories="\Logical\MATLAB_includes\R2024b\" BuildOptions="-lm -DMODEL=MOCS_AS_Gen -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=0 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0 " Debugging="false"/>
+   </TaskClass>
+   <TaskClass Name="Cyclic#5"/>
+   <TaskClass Name="Cyclic#6"/>
+   <TaskClass Name="Cyclic#7"/>
+   <TaskClass Name="Cyclic#8"/>
+   <Binaries>
+      <BinaryObject Name="FWRules" Source="" Memory="UserROM" Language="Binary"/>
+      <BinaryObject Name="udbdef" Source="" Memory="UserROM" Language="Binary"/>
+      <BinaryObject Name="TCData" Source="" Memory="SystemROM" Language="Binary"/>
+      <BinaryObject Name="sysconf" Source="" Memory="SystemROM" Language="Binary"/>
+      <BinaryObject Name="asfw" Source="" Memory="SystemROM" Language="Binary"/>
+      <BinaryObject Name="User" Source="" Memory="UserROM" Language="Binary"/>
+      <BinaryObject Name="iomap" Source="" Memory="UserROM" Language="Binary"/>
+      <BinaryObject Name="arconfig" Source="" Memory="SystemROM" Language="Binary"/>
+      <BinaryObject Name="ashwd" Source="" Memory="SystemROM" Language="Binary"/>
+      <BinaryObject Name="Role" Source="" Memory="UserROM" Language="Binary"/>
+      <BinaryObject Name="ashwac" Source="" Memory="UserROM" Language="Binary"/>
+   </Binaries>
+   <Libraries>
+      <LibraryObject Name="brsystem" Source="" Memory="UserROM" Language="Binary" Debugging="true"/>
+      <LibraryObject Name="asieccon" Source="" Memory="UserROM" Language="Binary" Debugging="true"/>
+      <LibraryObject Name="astime" Source="" Memory="UserROM" Language="Binary" Debugging="true"/>
+      <LibraryObject Name="runtime" Source="" Memory="UserROM" Language="Binary" Debugging="true"/>
+      <LibraryObject Name="sys_lib" Source="" Memory="UserROM" Language="Binary" Debugging="true"/>
+   </Libraries>
+</SwConfiguration>

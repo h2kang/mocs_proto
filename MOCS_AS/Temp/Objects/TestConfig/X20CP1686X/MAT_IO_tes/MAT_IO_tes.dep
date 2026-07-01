@@ -1,0 +1,3 @@
+$(AS_PROJECT_PATH)/Logical/Global.var
+$(AS_PROJECT_PATH)/Logical/MATLAB_Interface/MAT_IF.var
+$(AS_PROJECT_PATH)/Logical/RcpTypes.typ

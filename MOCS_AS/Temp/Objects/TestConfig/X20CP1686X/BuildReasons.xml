@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BuildReasons>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\testconfig\x20cp1686x\mat_io_tes\main.st.o">
+    <BuildReason>Target "main.st.o" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\testconfig\x20cp1686x\mat_io_tes\_bur_pvdef.st.o">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\testconfig\x20cp1686x\mat_io_tes\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\testconfig\x20cp1686x\mat_io_tes\a.out">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\testconfig\x20cp1686x\mat_io_tes\main.st.o" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\testconfig\x20cp1686x\mat_io_tes\mat_io_tes.ox">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\testconfig\x20cp1686x\mat_io_tes\a.out" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\testconfig\x20cp1686x\mat_io_tes.br">
+    <BuildReason>Prerequiste "$(AS_PROJECT_PATH)\temp\objects\testconfig\x20cp1686x\mat_io_tes\mat_io_tes.ox" differs.
+</BuildReason>
+  </Rule>
+  <Rule ID="$(AS_PROJECT_PATH)\temp\objects\testconfig\x20cp1686x\ctrllogic.br">
+    <BuildReason>Target "ctrllogic.br" does not exist</BuildReason>
+  </Rule>
+  <Rule ID="#cpu_tp.mak">
+    <BuildReason>Rule is forced.</BuildReason>
+  </Rule>
+</BuildReasons>

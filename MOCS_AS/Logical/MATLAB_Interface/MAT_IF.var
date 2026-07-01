@@ -1,0 +1,5 @@
+(*---MATLAB Input---*)
+VAR
+	IF_PARA : Para_typ; (*MAT IN*)
+	IF_ALARM : Alarm_typ; (*MAT IN*)
+END_VAR

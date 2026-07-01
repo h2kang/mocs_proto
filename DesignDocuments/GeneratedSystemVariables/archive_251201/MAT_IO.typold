@@ -1,0 +1,165 @@
+(*---Category1---*)
+
+TYPE
+	IO_typ :	STRUCT
+		Comm : CommIO_typ;
+		No1 : IndivIO_typ;
+		No2 : IndivIO_typ;
+		No3 : IndivIO_typ;
+		No4 : IndivIO_typ;
+		No5 : IndivIO_typ;
+		No6 : IndivIO_typ;
+		No7 : IndivIO_typ;
+		No8 : IndivIO_typ;
+	END_STRUCT;
+END_TYPE
+
+(*---Category2---*)
+
+TYPE
+	CommIO_typ :	STRUCT
+		MOCS : CommMOCSIO_typ;
+		FODS : CommFODSIO_typ;
+	END_STRUCT;
+	IndivIO_typ :	STRUCT
+		MOCS : IndivMOCSIO_typ;
+		FODS : IndivFODSIO_typ;
+		SCR : IndivSCRIO_typ;
+	END_STRUCT;
+END_TYPE
+
+(*---Category3---*)
+
+TYPE
+	CommMOCSIO_typ :	STRUCT
+		DIPro : CMDI_typ;
+		DOPro : CMDO_typ;
+	END_STRUCT;
+	CommFODSIO_typ :	STRUCT
+		AIPro : CFAI_typ;
+		DIPro : CFDI_typ;
+		DOPro : CFDO_typ;
+	END_STRUCT;
+	IndivMOCSIO_typ :	STRUCT
+		AIPro : IMAI_typ;
+		AOPro : IMAO_typ;
+		DIPro : IMDI_typ;
+		DOPro : IMDO_typ;
+	END_STRUCT;
+	IndivFODSIO_typ :	STRUCT
+		AIPro : IFAI_typ;
+		AOPro : IFAO_typ;
+		DIPro : IFDI_typ;
+		DOPro : IFDO_typ;
+	END_STRUCT;
+	IndivSCRIO_typ :	STRUCT
+		DIPro : ISDI_typ;
+		DOPro : ISDO_typ;
+	END_STRUCT;
+END_TYPE
+
+(*---Category4_Comm---*)
+
+TYPE
+	CFAI_typ :	STRUCT
+		FOSupplyInletPress : REAL;
+		FOSupplyOutletPress : REAL;
+	END_STRUCT;
+	CFDI_typ :	STRUCT
+		FOSupplypumpAutomode : BOOL;
+		No1FOSupplypumpRemote : BOOL;
+		No1FOSupplypumpAbnormal : BOOL;
+		No1FOSupplypumpRunning : BOOL;
+		No2FOSupplypumpRemote : BOOL;
+		No2FOSupplypumpAbnormal : BOOL;
+		No2FOSupplypumpRunning : BOOL;
+	END_STRUCT;
+	CFDO_typ :	STRUCT
+		No1FOSupplypumpRunCommand : BOOL;
+		No2FOSupplypumpRunCommand : BOOL;
+	END_STRUCT;
+	CMDI_typ :	STRUCT
+		AlarmReset : BOOL;
+		PLCpowerFail_Reserved : BOOL;
+		InternalpowerFail : BOOL;
+		ExternalpowerFail : BOOL;
+		FanpowerFail : BOOL;
+		ESDcircuitpowerFail : BOOL;
+	END_STRUCT;
+	CMDO_typ :	STRUCT
+		MOCSCommonAlarm : BOOL;
+		MOCSCommonAlarmLamp : BOOL;
+		MOCSCommonAlarmBuzzer : BOOL;
+	END_STRUCT;
+END_TYPE
+
+(*---Category4_Indiv---*)
+
+TYPE
+	IFAI_typ :	STRUCT
+		FODAtomizingAirInletPress : REAL;
+		FODAtomizingAirOutletPress : REAL;
+		FODFuelOilInletPress : REAL;
+		FODFuelOilMiddlePress : REAL;
+		FODFuelOilFlowrate_Feedback : REAL;
+		FODFuelOilOutletPress : REAL;
+	END_STRUCT;
+	IFAO_typ :	STRUCT
+		FODFuelOilControlVV_Setpoint : REAL;
+	END_STRUCT;
+	IFDI_typ :	STRUCT
+		FODFuelOilInletTemp : BOOL;
+	END_STRUCT;
+	IFDO_typ :	STRUCT
+		MOCSFODsystemFlushRun : BOOL;
+		FODAtomizingAirSolVV : BOOL;
+		FODPurgingAirSolVV : BOOL;
+		FODFuelOilInletSolVV : BOOL;
+		FODFuelOilOutletSolVV : BOOL;
+		FODFuelOilReturnSolVV : BOOL;
+	END_STRUCT;
+	IMAI_typ :	STRUCT
+		MixerInletTemp : REAL;
+		ChamberInletTemp : REAL;
+		ChamberMiddleTemp : REAL;
+		ChamberOutletTemp : REAL;
+		ChamberDiffPress : REAL;
+		VentingSealingAirInletPress : REAL;
+		RBVPDT : REAL;
+		RTVPDT : REAL;
+		RTVFeedback : REAL;
+	END_STRUCT;
+	IMAO_typ :	STRUCT
+		RTVSetpoint : REAL;
+	END_STRUCT;
+	IMDI_typ :	STRUCT
+		GELowSulfurfuelsupplied : BOOL;
+		MOCSRemoteLocal : BOOL;
+		MOCSEmcystopFrompanel : BOOL;
+		MOCSEmcystopFromECR : BOOL;
+		MOCSEmcystopFromBridge : BOOL;
+		MOCSStart : BOOL;
+		MOCSPreparation : BOOL;
+		MOCSStop : BOOL;
+		RSVFeedback_Open : BOOL;
+		RSVFeedback_Closed : BOOL;
+		RBVFeedback_Open : BOOL;
+		RBVFeedback_Closed : BOOL;
+	END_STRUCT;
+	IMDO_typ :	STRUCT
+		MOCSReady : BOOL;
+		AllFlowThroughMOCS : BOOL;
+		MOCSActive : BOOL;
+		RSVSetpoint : BOOL;
+		RBVSetpoint : BOOL;
+		VentingSealingSolVV : BOOL;
+	END_STRUCT;
+	ISDI_typ :	STRUCT
+		SCRValveFeedback_Open : BOOL;
+		SCRValveFeedback_Close : BOOL;
+	END_STRUCT;
+	ISDO_typ :	STRUCT
+		SCRValveSetpoint : BOOL;
+	END_STRUCT;
+END_TYPE
+

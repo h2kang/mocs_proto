@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<?AutomationStudio Version="4.12.5.95 SP"?>
+<?AutomationStudio Version="4.12.7.113 SP"?>
 <ProjectSettings xmlns="http://br-automation.co.at/AS/ProjectSettings">
   <ConfigurationManager ActiveConfigurationName="TestConfig" />
   <Deployment Value="ActiveCpu" />

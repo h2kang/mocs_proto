@@ -1,0 +1,5 @@
+Compile shared library failed.
+mingw32-make: *** No rule to make target 'D:/Git/mocs_proto/slprj/_fmu/58a1b34e67e7bfbda2cc4ba5c479823a/IMEP_GP_0/sources/rsm.c', needed by 'rsm.obj'.  Stop.
+The make command returned an error of 2
+
+

@@ -1,0 +1,10 @@
+For manual assignment to hardware configuration please
+add the following additional include directories:
+
+\Logical\MATLAB_includes\R2024b\
+
+
+
+And the following additional build options:
+
+-lm -DMODEL=MOCS_AS_Gen -DNUMST=1 -DNCSTATES=0 -DHAVESTDIO -DMODEL_HAS_DYNAMICALLY_LOADED_SFCNS=0 -DCLASSIC_INTERFACE=0 -DALLOCATIONFCN=0 -DTID01EQ=0 -DTERMFCN=1 -DONESTEPFCN=0 -DMAT_FILE=0 -DMULTI_INSTANCE_CODE=0 -DINTEGER_CODE=0 -DMT=0 

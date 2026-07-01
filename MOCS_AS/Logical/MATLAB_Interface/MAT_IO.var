@@ -1,0 +1,4 @@
+VAR
+	IF_MATIN_IO : IO_typ;
+	IF_MATOUT_IO : IndivIO_typ;
+END_VAR
